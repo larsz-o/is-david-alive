@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    color: #202021;
+    text-align: center;
+  }
+  
+  img {
+    border-color: black;
+    border-style: solid;
+  }
+  
+  h2 {
+    font-size: 1em;
+    font-size: 1.1em; 
+    text-align: center;
+    font-weight: normal; 
+  }
+  
+  .button {
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #E9FF33;
+  }
+  
+  #alive {
+    background-color: #E9FF33;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  #quoteDisplay {
+    font-size: 2em;
+    color: navy;
+    text-align: center;
+    border-right: 2px; 
+    border-color: navy; 
+  }
+  
+  #dsQuoteDisplay {
+    font-size: 2em;
+    color: navy;
+    text-align: center;
+    border-left: 2px; 
+    border-color: navy; 
+  }
+  
