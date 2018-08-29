@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    color: #202021;
+    text-align: center;
+  }
+  
+  img {
+    border-color: black;
+    border-style: solid;
+  }
+  
+  h2 {
+    font-size: 1em;
+    font-size: 1.1em; 
+    text-align: center;
+    font-weight: normal; 
+  }
+  
+  button {
+    padding: 7px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #E9FF33;
+    border-radius: 5px; 
+  }
+  label{
+    font-weight: bold; 
+  }
+  ul{
+    list-style-type: none; 
+  }
+  .container {
+    margin: 20px; 
+    padding: 5px;  
+  }
+  #alive {
+    background-color: #E9FF33;
+    font-size: 1.5em;
+    text-align: center;
+  }
+

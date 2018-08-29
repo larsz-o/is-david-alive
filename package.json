@@ -1,0 +1,24 @@
+{
+  "name": "davidschwimmer",
+  "version": "1.0.0",
+  "description": "An AngularJS, PostgreSQL, Node and Express app.",
+  "main": "angular-route.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larsmack/davidschwimmer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larsmack/davidschwimmer/issues"
+  },
+  "homepage": "https://github.com/larsmack/davidschwimmer#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pg": "^7.4.3"
+  }
+}
