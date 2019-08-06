@@ -11,7 +11,7 @@ app.controller('DavidController', function ($http) {
     method: 'GET',
     url: 'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=David_Schwimmer&section=0'
   }).then((response) => {
-    if(response.parse.text.search('death_date') === -1){
+    if(response.parse.text.search('died') === -1){
       vm.davidAlive = 'alive';
       vm.aliveStatus = true;
       console.log('David lives!')
