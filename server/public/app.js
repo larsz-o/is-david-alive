@@ -1,9 +1,26 @@
 const app = angular.module('DavidApp', []);
+
 app.controller('DavidController', function ($http) {
   let vm = this;
   vm.rossQuotes = [];
   vm.davidQuotes = [];
+  vm.davidAlive = 'alive';
+  vm.aliveStatus = true;
 
+  $http({
+    method: 'GET',
+    url: 'https://en.wikipedia.org/w/api.php?action=parse&format=json&page=David_Schwimmer&section=0'
+  }).then((response) => {
+    if(response.parse.text.search('death_date') === -1){
+      vm.davidAlive = 'alive';
+      vm.aliveStatus = true;
+      console.log('David lives!')
+    } else {
+      vm.davidAlive = 'dead';
+      vm.aliveStatus = false; 
+      console.log('David is dead')
+    }
+  })
   vm.addQuote = function (){
     let quoteToadd = {
       name: vm.newName,

@@ -17,7 +17,7 @@
 <body ng-app="DavidApp">
   <div ng-controller="DavidController as dc">
     <h1>David Schwimmer is</h1>
-    <p id="alive">alive</p>
+    <p ng-class="{alive: dc.aliveStatus}">{{dc.davidAlive}}</p>
     <img src="./images/IMG_1280.jpeg" width="300" height="421">
     <div class="container">
       <div class="row">

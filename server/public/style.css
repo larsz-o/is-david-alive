@@ -33,8 +33,14 @@ body {
     margin: 20px; 
     padding: 5px;  
   }
-  #alive {
+  .alive {
     background-color: #E9FF33;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .dead {
+    background-color: black;
+    color: white;
     font-size: 1.5em;
     text-align: center;
   }
