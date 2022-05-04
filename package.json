@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/larsmack/davidschwimmer#readme",
   "dependencies": {
-    "angular": "^1.7.9",
+    "angular": "^1.8.3",
     "express": "^4.16.3",
     "pg": "^7.4.3",
     "xmlhttprequest": "^1.8.0"
